@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="txt_view_location_publication" />
+    <item type="id" name="txt_view_location_friends" />
+    <item type="id" name="layout3" />
+</resources>

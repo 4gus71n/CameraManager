@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minikast</string>
+    <string name="put_your_mail">Email or username</string>
+    <string name="put_your_password">Password</string>
+    <string name="app_id">611208675678335</string>
+    <string name="title_activity_startup_navigation_drawer">StartupNavigationDrawerActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="loren_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum velit lacus, accumsan et consequat quis, porttitor sed felis. Praesent sed pharetra lectus, id vestibulum massa.</string>
+    <string name="yesterday">Ayer</string>
+    <string name="today">Hoy</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">All posts</string>
+    <string name="title_activity_registration">Create account</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="create_account">Create account</string>
+    <string name="title_activity_new_publication">New post</string>
+    <string name="dont_show_where_i_am">Don\'t share my location</string>
+    <string name="only_visible_friends">Only visible to my friends</string>
+    <string name="intent_chooser_gallery_title">Select an image from your device</string>
+    <string name="intent_chooser_camera_title">Take a picture</string>
+    <string name="alert_dialog_error_open_camera">The camera didn\'t work</string>
+    <string name="error_loading_image">Error while loading the image</string>
+    <string name="what_do_you_say">What do you want to share?</string>
+    <string name="new_post">New post</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="logout">Logout</string>
+    <string name="title_user_detail_activity">User</string>
+    <string name="title_place_detail_activity">Place</string>
+    <string name="event_left_time" formatted="false">This event starts the %s at the %s hs. (Left %d days, %d hours and %d minutes)</string>
+    <string name="like_place">Like</string>
+    <string name="addUser">Add user</string>
+    <string name="search_user">Search user</string>
+    <string name="title_activity_search_user">Search user</string>
+    <string name="action_search">Search</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="checkemail">Check your email</string>
+    <string name="checkpassword">Check your password</string>
+    <string name="checkconfirmpassword">Check your password</string>
+    <string name="checkLastName">Check your last name</string>
+    <string name="checkFirstName">Check your first name</string>
+    <string name="show_more">Show more</string>
+    <string name="show_all">Show all</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="ok">Ok</string>
+    <string name="title_activity_edit_profile">Edit profile</string>
+    <string name="save">Save</string>
+    <string name="event_time_subtitle_format" formatted="false">%s in %s\nuntil %s.</string>
+    <string name="promotion_subtitle_format" formatted="false">This promotion starts the %s at the %s and it ends the %s at the %s in %s.</string>
+    <string name="event_time_list_format" formatted="false">%s at %s in %s.</string>
+    <string name="takephoto">Take photo</string>
+    <string name="choosefromgallery">Choose from Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="new_account">Create account</string>
+    <string name="whoarewithyou">Who are with you?</string>
+    <string name="create_post">Create post</string>
+    <string name="textorpicrequired">Empty post</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Edit profile</item>
+        <item>Search friends</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="title_activity_test_realm">TestRealmActivity</string>
+    <string name="error">Error</string>
+    <string name="loadingwait">Loading, please wait</string>
+    <string name="birthday">Birthday</string>
+    <string name="checkbirthday">check your birthday</string>
+    <string name="addPhoto">Add photo!</string>
+    <string name="select_image">Please select an image</string>
+    <string name="yes">Yes</string>
+    <string name="discard">Discard</string>
+    <string name="alert">Alert</string>
+    <string name="areyousurecancel">Are you sure you want to cancel?</string>
+    <string name="updating_sn_message">Updating social networks...</string>
+    <string name="updating_frinds_message">Updating buddies list...</string>
+    <string name="friends_lst_updated_mgs">Friends list updated!</string>
+    <string name="on_error_socialntwks">An error was triggered while we were trying to retrieve the social networks!</string>
+    <string name="socialntwks_updated_message">Social networks updated!</string>
+    <string name="on_error_friends_lst_message">An error was triggered while we were trying to retrieve the friends list!</string>
+    <string name="postsaved">Post successfully saved</string>
+    <string name="no_social_networks_available">Theres no social networks to join in this place!</string>
+    <string name="deletepost">Delete post</string>
+    <string name="deletepostconfirm">Are you sure that you want to delete this post?</string>
+    <string name="title_activity_reset_password">Reset password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="notification_friendship_request">%1$d sent you a friendship request</string>
+    <string name="notification_new_socianlnkts_title">You have changed from social network</string>
+    <string name="notification_new_socialnkts_format">There\'s %d social networks that you can choose</string>
+    <string name="title_activity_selectsocialnetwork">Select a social network</string>
+    <string name="refresh_social_network_lst">Search social networks!</string>
+    <string name="searching_networks">Searching social networks</string>
+    <string name="findinglocation">Finding location...</string>
+    <string name="getting_user_info">Downloading user info</string>
+    <string name="free_event">It\'s free!</string>
+    <string name="postedited">Post successfully edited</string>
+    <string name="postupdated">Post successfully updated</string>
+    <string name="deletefriend">Delete friend</string>
+    <string name="deletefriendconfirm">Are you sure that you want to delete this friend?</string>
+    <string name="title_activity_searchfriends">Search friends</string>
+    <string name="no_results">No results found</string>
+    <string name="going_users_format">%d users are going to this event.</string>
+    <string name="going_users_friend_format">%d are friends.</string>
+    <string name="going_user">Only one user is going to this event, for now.</string>
+    <string name="going_user_friend"> And one it\'s your friend.</string>
+    <string name="liked_users_format">%d users liked this event.</string>
+    <string name="more_images_format">+%d</string>
+    <string name="choose_an_old_one">Choose an old one</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="empty_notifications">You don\'t have any notification.</string>
+    <string name="cancel_friendship_req">Cancel friendship request</string>
+    <string name="accept_friendship_req">Accept friendship request</string>
+    <string name="ignore_friendship_req">Ignore friendship request</string>
+    <string name="erase_friend">Erase friend</string>
+    <string name="send_friendship_req">Send friendship request</string>
+    <string name="ignore_friend_confirm">Are you sure that you want to ignore this user request?</string>
+    <string name="ignore_friend_title">Ignore user</string>
+    <string name="no_internet_connection">There\'s no internet connection.</string>
+    <string name="subscribe_notification" formatted="false">You subscribed to the event %s that takes place in %s the %s at %s.</string>
+    <string name="image_limit_reached">You can\'t upload more than 10 pictures</string>
+    <string name="half_hour">30 minutes before</string>
+    <string name="one_hour">1 Hour before</string>
+    <string name="three_hour">3 Hours before</string>
+    <string name="six_hour">6 Hours before</string>
+    <string name="a_day">A Day before</string>
+    <string name="remind_me">Remind me in...</string>
+    <string name="the_event_begins">Hurry up! The event It\'s about to begin</string>
+    <string name="share_via">How do you want to share it?</string>
+    <string name="share_sms">Share through sms</string>
+    <string name="share_email">Share through email</string>
+    <string name="share_whatsapp">Share through Whatsapp</string>
+    <string name="share_twitter">Share through Twitter</string>
+    <string name="share_facebook">Share through Facebook</string>
+    <string name="share_more">More share options</string>
+    <string name="share_text">Text</string>
+    <string name="share_with">With</string>
+    <string name="share_title">Title</string>
+
+</resources>

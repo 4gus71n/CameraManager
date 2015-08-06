@@ -1,0 +1,66 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="user_publication_avatar_width">@dimen/keyline_6</dimen>
+    <dimen name="user_publication_avatar_height">@dimen/keyline_6</dimen>
+
+    <!-- Action Bar auto-hide-on-scroll behavior parameters -->
+    <dimen name="action_bar_auto_hide_min_y">152dp</dimen>
+    <dimen name="action_bar_auto_hide_sensivity">48dp</dimen>
+    <dimen name="session_detail_max_header_elevation">4dp</dimen>
+    <dimen name="session_details_floating_width">500dp</dimen>
+    <dimen name="session_details_floating_height">650dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="user_feeds_item_height">50dp</dimen>
+    <dimen name="main_tab_indicator_height">0dp</dimen>
+    <dimen name="tab_indicator_height">48dp</dimen>
+    <dimen name="actionbar_height">56dp</dimen>
+    <dimen name="event_detail_image_gallery_thumbnail_height">@dimen/event_map_height</dimen>
+    <dimen name="event_detail_image_gallery_thumbnail_width">@dimen/event_map_height</dimen>
+    <dimen name="keyline_5">40dp</dimen>
+    <dimen name="keyline_4">32dp</dimen>
+    <dimen name="keyline_3">24dp</dimen>
+    <dimen name="keyline_2">16dp</dimen>
+    <dimen name="keyline_7">56dp</dimen>
+    <dimen name="keyline_8">64dp</dimen>
+    <dimen name="keyline_9">72dp</dimen>
+    <dimen name="keyline_1">8dp</dimen>
+    <dimen name="keyline_14">112dp</dimen>
+    <dimen name="keyline_6">48dp</dimen>
+
+    <dimen name="event_map_height">200dp</dimen>
+
+    <dimen name="delete_me">800dp</dimen>
+    <dimen name="chip_avatar_width">32dp</dimen>
+    <dimen name="chip_avatar_height">32dp</dimen>
+    <dimen name="chip_height">40dp</dimen>
+    <dimen name="autocomplete_height">64dp</dimen>
+    <dimen name="avatar_file_width">300dp</dimen>
+    <dimen name="avatar_file_height">300dp</dimen>
+    <dimen name="avatar_file_width_register">100dp</dimen>
+    <dimen name="avatar_file_height_register">100dp</dimen>
+    <dimen name="image_post_size">@dimen/keyline_14</dimen>
+    <dimen name="image_post_register_size">100dp</dimen>
+    <dimen name="notification_icon_height">@dimen/user_publication_avatar_height</dimen>
+    <dimen name="notification_icon_width">@dimen/user_publication_avatar_width</dimen>
+    <dimen name="user_publication_min_height">300dp</dimen>
+    <dimen name="text_shape_more_size">@dimen/keyline_4</dimen>
+    <dimen name="text_shape_more_stroke">4dp</dimen>
+    <dimen name="post_height">400dp</dimen>
+
+    <integer name="off_icons_alpha">255</integer>
+    <integer name="postHeight">1200</integer>
+    <integer name="postWidth">800</integer>
+    <integer name="max_password_lenght">4</integer>
+    <dimen name="extra_padding_bottom_layout">16dp</dimen>
+    <dimen name="space_between_inputs">8dp</dimen>
+    <dimen name="avatar_big">100dp</dimen>
+    <dimen name="image_reel_img_height">400dp</dimen>
+    <dimen name="last_comment_padding">@dimen/keyline_8</dimen>
+
+</resources>

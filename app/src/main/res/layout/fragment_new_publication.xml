@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:focusableInTouchMode="true"
+    android:paddingRight="@dimen/activity_vertical_margin">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_share_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:hint="@string/what_do_you_say"
+        android:layout_alignParentEnd="true"
+        android:inputType="textMultiLine"
+        android:maxLength="255"
+        android:ems="10"
+        android:minLines="3"
+        android:maxLines="20"
+        android:layout_marginBottom="@dimen/keyline_1"
+        android:singleLine="true"
+        android:textColorHint="@color/edit_text_hint"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_below="@+id/tag_cloud_usernames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_pager_container"
+        android:layout_marginBottom="@dimen/keyline_2">
+
+        <com.astinx.cameramanager.CustomDurationViewPager
+            android:id="@+id/recycler_view_publication_images"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+
+        <com.astinx.cameramanager.CirclePageIndicator
+            android:paddingTop="5dp"
+            android:id="@+id/recycler_view_publication_images_dots"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <ImageView
+            android:layout_width="@dimen/keyline_4"
+            android:layout_height="@dimen/keyline_5"
+            android:id="@+id/img_view_trash_can"
+            android:src="@drawable/chip_delete"
+            android:layout_alignTop="@+id/recycler_view_publication_images_dots"
+            android:layout_alignParentRight="true"
+            android:scaleType="center" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@+id/view_pager_container"
+        android:id="@+id/camera_container"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:layout_marginTop="@dimen/keyline_2">
+
+        <ImageView
+            android:id="@+id/img_view_camera"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_camera"
+            android:scaleType="center"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:id="@+id/img_view_gallery"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_insert_photo"
+            android:scaleType="center" />
+
+    </LinearLayout>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/only_visible_friends"
+        android:id="@+id/check_box_only_friends"
+        android:layout_below="@+id/view_pager_container"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+</LinearLayout></ScrollView>

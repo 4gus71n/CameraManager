@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <!--<item name="android:buttonStyle">@style/AppTheme.Buttons</item>-->
+        <item name="actionMenuTextColor">@color/white</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionBarTabBarStyle">@style/Divider</item>
+        <item name="isFloatingWindow">false</item>
+
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">#c5c5c5</item>
+
+        <!-- colorPrimary is used, for instance, for the default ActionBar
+       (but not Toolbar) background.
+        We specify the same color for the toolbar background in
+        toolbar.xml.. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark is used for the status bar (with the
+             battery, clock, etc). -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="android:textColorPrimary">@color/colorSecondary</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+
+
+    </style>
+
+    <style name="Divider" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:divider">@drawable/ic_location_inactive</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+    </style>
+
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+
+  <style name="AppTheme" parent="@style/_AppTheme"/>
+
+  <style name="_AppTheme" parent="AppTheme.Base">
+
+    <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#9980cbc4</item>
+    <item name="android:textSelectHandleLeft">@drawable/apptheme_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/apptheme_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/apptheme_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewAppTheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/apptheme_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/apptheme_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerAppTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarAppTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarAppTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigAppTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallAppTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleAppTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/apptheme_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/apptheme_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/apptheme_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>
